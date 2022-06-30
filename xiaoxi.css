@@ -1,0 +1,269 @@
+* {
+    padding: 0;
+    margin: 0;
+    list-style: none;
+}
+
+.w {
+    width: 1200px;
+    margin: 0 auto;
+}
+
+
+body {
+    background-color: #f4f5f7;
+    background: url(img/xxbj.jpg) no-repeat top center;
+}
+
+.header {
+    width: 100%;
+    height: 61px;
+    background-color: #fff;
+}
+
+.box {
+    width: 100%;
+    height: 36px;
+    /* background-color: black; */
+    padding-top: 10px;
+    padding-bottom: 15px;
+    border-bottom: 1px solid #a4a4a4;
+}
+
+.nav {
+    width: 420px;
+    height: 36px;
+    /* background-color: black; */
+    margin-left: 25px;
+    font-size: 12px;
+    float: left;
+}
+
+.nav ul li {
+    float: left;
+    padding-right: 13px;
+    line-height: 36px;
+}
+
+.nav a:link,
+.nav a:visited {
+    color: #000;
+    text-decoration: none;
+}
+
+.nav .tv {
+    background: url(img/bilibili1.jpg) no-repeat left;
+    padding-left: 28px;
+
+}
+
+.search {
+    width: 363px;
+    height: 36px;
+    float: left;
+}
+
+.search input {
+    width: 270px;
+    height: 34px;
+    border: 1px solid #a4a4a4;
+    border-right: 0;
+    padding-left: 18px;
+    font-size: 14px;
+    color: #000;
+    float: left;
+    background-color: #a4a4a4;
+    border-top-left-radius: 10px;
+    border-bottom-left-radius: 10px;
+}
+
+.search button {
+    width: 47px;
+    height: 36px;
+    background-color: #a4a4a4;
+    border: 0;
+    float: left;
+    background-image: url(img/sousuo.jpg);
+    border-top-right-radius: 10px;
+    border-bottom-right-radius: 10px;
+    cursor: pointer;
+}
+
+
+.nav-user {
+    width: 380px;
+    height: 36px;
+    float: left;
+
+}
+
+.nav-user ul {
+    overflow: hidden;
+    padding-left: 18px;
+}
+
+.nav-user ul li {
+    float: left;
+    line-height: 36px;
+    font-size: 14px;
+    padding-right: 11px;
+}
+
+.nav-user .nav-user1 {
+    padding-right: 0;
+}
+
+.nav-user ul li a:link,
+.nav-user ul li a:visited {
+    text-decoration: none;
+    color: #000;
+}
+
+.tougao {
+    width: 64px;
+    height: 36px;
+    float: left;
+    font-size: 14px;
+    background-color: #fb7299;
+    padding-left: 36px;
+    line-height: 36px;
+    /* margin-left: 20px; */
+
+}
+
+.tougao span a:link,
+.tougao span a:visited {
+    color: #fcfcfc;
+    text-decoration: none;
+}
+
+.xiaoxi {
+    width: 980px;
+    height: 602px;
+    background-color: rgba(255, 255, 255, 0.5);
+}
+
+.xiaoxi-left {
+    width: 140px;
+    height: 602px;
+    float: left;
+    background-color: rgba(255, 255, 255, 0.6);
+}
+
+.xiaoxi-left-hd {
+    width: 140px;
+    height: 14px;
+    /* background-color: aqua; */
+    margin-top: 24px;
+}
+
+.xiaoxi-left-hd a {
+    display: block;
+    width: 81px;
+    height: 14px;
+    font-size: 13px;
+    padding-left: 24px;
+    background: url(img/xiaoxizhongxing.png) no-repeat;
+    /* background-color: #fb7299; */
+    margin-left: 30px;
+}
+
+.xiaoxi-left-hd a:link,
+.xiaoxi-left-hd a:visited {
+    color: #000;
+    text-decoration: none;
+}
+
+.xiaoxi-left-bd {
+    width: 90px;
+    height: 275px;
+    /* background-color: #fb7299; */
+    margin-top: 38px;
+    margin-left: 22px;
+}
+
+.xiaoxi-left .xiaoxi-left-bd .style-blue {
+    color: #2faee4;
+}
+
+.xiaoxi-left-bd li {
+    font-size: 13px;
+    list-style: disc;
+    margin-left: 20px;
+    margin-bottom: 28px;
+    color: #6b757b;
+    font-weight: 700;
+}
+
+.xiaoxi-left-bd li a:link,
+.xiaoxi-left-bd li a:visited {
+    color: #6b757b;
+    text-decoration: none;
+
+}
+
+.xiaoxi-left-bd li a:hover {
+    color: #2faee4;
+}
+
+.xiaoxi-left-bd li:hover {
+    color: #2faee4;
+}
+
+.xiaoxi-left-footer {
+    width: 91px;
+    height: 14px;
+}
+
+.xiaoxi-left-footer a {
+    display: block;
+    width: 77px;
+    height: 14px;
+    padding-left: 19px;
+    background: url(img/xiaoxishezhi.png) no-repeat left 2px;
+    font-weight: 700;
+    font-size: 13px;
+    margin-left: 22px;
+}
+
+.xiaoxi-left .xiaoxi-left-footer a:link,
+.xiaoxi-left .xiaoxi-left-footer a:visited {
+    color: #6b757b;
+    text-decoration: none;
+}
+
+.xiaoxi-right {
+    width: 820px;
+    height: 593px;
+    float: left;
+    margin-left: 10px;
+}
+
+.xiaoxi-right-hd {
+    width: 820px;
+    height: 43px;
+    background-color: #fff;
+    margin-top: 10px;
+    border-radius: 6px;
+}
+
+.xiaoxi-right-hd p {
+    line-height: 43px;
+    font-size: 15px;
+    margin-left: 17px;
+    color: #666666;
+}
+
+.xiaoxi-right-bd {
+    width: 820px;
+    height: 541px;
+    margin-top: 10px;
+    background-color: #fff;
+    border-radius: 6px;
+}
+
+.xiaoxi-right-bd p {
+    text-align: center;
+    line-height: 541px;
+    color: #666666;
+}
